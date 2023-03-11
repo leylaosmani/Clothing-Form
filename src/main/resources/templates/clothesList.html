@@ -20,7 +20,9 @@
 <body>
     <div class="container">
         <h1>Clothing List</h1>
-        <a th:href="@{/clothesList/sortByBrand}">Sort by brand</a>
+        <form method="get" action="/clothesList/sortByBrand">
+            <button type="submit" class="btn btn-primary"> Sort by brand</button>
+        </form>
         <table class="table">
             <thead>
                 <tr>
