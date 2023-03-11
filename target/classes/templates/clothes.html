@@ -62,16 +62,14 @@
             the:text="Price must be more than 1000"></small>
         </div>
         <div class="mb-3">
-        <label for="brand" class="form-label">Brands:</label>
-       <select
-        name="brand">
-    <option
-    the:each="brands: ${brand} "
-    the:value="${brand}"
-    the:text="${brand.title}"
-    />
-    </option>
-    </select>
+          <label for="brand" class="form-label">Brand:</label>
+          <select class="form-select" id="brand" name="brand">
+              <option value="">-- Please select a brand --</option>
+              <option th:each="brand : ${T(com.cpan252.assignment1.model.Clothes.Brands).values()}"
+                      th:value="${brand}" th:text="${brand.title}">
+              </option>
+          </select>
+      </div>
     <br>
     <button type="submit" class="btn btn-primary">Add Item</button>
       </form>
