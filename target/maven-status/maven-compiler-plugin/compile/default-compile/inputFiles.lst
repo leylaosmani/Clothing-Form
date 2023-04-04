@@ -1,5 +1,15 @@
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/repository/ClothesRepositoryPaginated.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/controller/RegistrationController.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/model/form/RegistrationForm.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/model/User.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/repository/ClothesRepository.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/repository/UserRepository.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/config/SecurityConfig.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/controller/ClothesManagement.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/model/Clothes.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/model/dto/ClothesSearchByDateDto.java
 /Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/Assignment1Application.java
 /Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/controller/HomeController.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/repository/ClothesRepository.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/model/Clothes.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/controller/ClothesListController.java
+/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/config/WebConfig.java
 /Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/controller/ClothesController.java

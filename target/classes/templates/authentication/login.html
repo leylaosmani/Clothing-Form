@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Clothing Warehouse</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: rgb(250, 232, 232);
+      }
+
+      h1 {
+        color: #305067;
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .form-label {
+        font-weight: bold;
+      }
+
+      #loginForm {
+        margin-top: 2rem;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        box-sizing: border-box;
+      }
+
+      .btn-primary {
+        background-color: #305067;
+        border-color: #02161f;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .btn-primary:hover {
+        background-color: #809cad;
+        border-color: #02161f;
+      }
+
+      .btn-primary:focus {
+        box-shadow: 0 0 0 0.2rem #809cad;
+      }
+      
+      .card {
+        width: 50%;
+        padding: 2rem;
+      }
+      
+      @media (max-width: 576px) {
+        .card {
+          width: 80%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div
+      class="d-flex flex-column bd-highlight justify-content-center align-items-center w-75 ms-5"
+    >
+      <div class="card">
+        <h1>Login</h1>
+
+        <div th:if="${error}" class="alert alert-danger" role="alert">
+          Unable to login. Check your username and password.
+        </div>
+
+        <p>New here? Click <a th:href="@{/register}">here</a> to register.</p>
+
+        <form method="POST" th:action="@{/authentication/login}" id="loginForm">
+          <div class="mb-3">
+            <label class="form-label" for="username">Username: </label>
+            <input class="form-control" type="text" name="username" id="username" />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="password">Password: </label>
+            <input class="form-control" type="password" name="password" id="password" />
+          </div>
+
+          <button class="btn btn-primary" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
