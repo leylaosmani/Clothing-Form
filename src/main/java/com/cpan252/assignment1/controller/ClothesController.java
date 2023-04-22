@@ -1,4 +1,5 @@
 package com.cpan252.assignment1.controller;
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Controller;
@@ -19,6 +20,7 @@ import com.cpan252.assignment1.model.Clothes;
 import com.cpan252.assignment1.repository.ClothesRepository;
 import com.cpan252.assignment1.model.User;
 import java.util.EnumSet;
+
 @Controller
 @Slf4j
 @RequestMapping("/addition")
@@ -44,6 +46,7 @@ public class ClothesController {
     }
     
     @PostMapping
+    // @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_EMPLOYEE')")
     public String processClothesAddition(@Valid Clothes clothes, BindingResult result, Model model) {
         if (result.hasErrors()) {
             model.addAttribute("brands", EnumSet.allOf(Brands.class));

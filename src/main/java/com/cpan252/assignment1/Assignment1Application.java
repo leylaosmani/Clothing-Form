@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Bean;
 import com.cpan252.assignment1.model.Clothes;
 import com.cpan252.assignment1.model.Clothes.Brands;
 import com.cpan252.assignment1.repository.ClothesRepository;
+
+// import java.math.BigDecimal;
+
 @SpringBootApplication
 public class Assignment1Application {
 

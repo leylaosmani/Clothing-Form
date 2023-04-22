@@ -1,15 +1,19 @@
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/repository/ClothesRepositoryPaginated.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/controller/RegistrationController.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/model/form/RegistrationForm.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/model/User.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/repository/ClothesRepository.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/repository/UserRepository.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/config/SecurityConfig.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/controller/ClothesManagement.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/model/Clothes.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/model/dto/ClothesSearchByDateDto.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/Assignment1Application.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/controller/HomeController.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/controller/ClothesListController.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/config/WebConfig.java
-/Users/mac/Downloads/assignment1 2/src/main/java/com/cpan252/assignment1/controller/ClothesController.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\model\dto\ClothesSearchByDateDto.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\Assignment1Application.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\model\dto\ItemDto.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\controller\ClothesController.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\model\User.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\model\Clothes.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\repository\UserRepository.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\controller\DistributionController.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\config\WebConfig.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\controller\RegistrationController.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\model\dto\DistributionCentreDto.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\model\form\RegistrationForm.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\controller\HomeController.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\controller\ItemController.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\config\SecurityConfig.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\repository\ClothesRepository.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\repository\ClothesRepositoryPaginated.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\controller\ClothesListController.java
+C:\Users\kimbe\Downloads\Clothing-Warehouse\src\main\java\com\cpan252\assignment1\controller\ClothesManagement.java

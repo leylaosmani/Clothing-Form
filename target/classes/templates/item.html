@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Item Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <style>
+        body {
+            background-color: rgb(250, 232, 232);
+        }
+
+    </style>
+</head>
+<body>
+<h1>Item Dashboard</h1>
+<form method="get" th:object="${brand}" th:action="@{/distributions}">
+<div class="mb-3">
+    <label for="brandName" class="form-label">Product name: </label>
+    <input
+            type="text"
+            class="form-control"
+            id="brandName"
+            th:field="*{name}"
+            aria-describedby="brandHelp"
+    />
+    <select
+            th:field="*{brandNameFrom}"
+            class="form-select mt-5 mb-5"
+    >
+        <option
+                th:each="brandName: ${brandnames}"
+                th:value="${brandName}"
+                th:text="${brandName.title}"
+        />
+    </select>
+
+    <button  class="btn btn-dark">List Distribution centre</button>
+    </form>
+</div>
+</body>
+</html>

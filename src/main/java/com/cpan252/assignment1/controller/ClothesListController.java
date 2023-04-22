@@ -11,16 +11,16 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import com.cpan252.assignment1.model.Clothes;
+// import com.cpan252.assignment1.model.Clothes;
 import com.cpan252.assignment1.repository.ClothesRepository;
 import com.cpan252.assignment1.repository.ClothesRepositoryPaginated;
-import com.cpan252.assignment1.model.Clothes.Brands;
+// import com.cpan252.assignment1.model.Clothes.Brands;
 import com.cpan252.assignment1.model.dto.ClothesSearchByDateDto;
-import java.util.List;
+
 @Controller
 @RequestMapping("/clothesList")
 public class ClothesListController {
-    private static final int PAGE_SIZE = 4;
+    private static final int PAGE_SIZE = 8;
     private ClothesRepository clothesRepository;
     private ClothesRepositoryPaginated clothesRepositoryPaginated;
 

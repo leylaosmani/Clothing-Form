@@ -33,6 +33,15 @@ public class Clothes {
     @Column(name = "brand")
     @Enumerated(EnumType.STRING)
     private Brands brand;
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
     public enum Brands {
         DIOR("Dior"), STONE_ISLAND("Stone Island"), PALMANGELS("Palm Angels"), BALENCIAGA ("Balenciaga"), CHANEL("Chanel");
 
@@ -44,12 +53,12 @@ public class Clothes {
             return title;
         }
     }
-      public Clothes(String name, int created, int price, Brands brand) {
-        this.name = name;
-        this.created = created;
-        this.price = price;
-        this.brand = brand;
-    }
+    //   public Clothes(String name, int created, int price, Brands brand) {
+    //     this.name = name;
+    //     this.created = created;
+    //     this.price = price;
+    //     this.brand = brand;
+    // }
 }
 
 

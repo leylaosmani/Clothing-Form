@@ -41,20 +41,19 @@ public class SecurityConfig {
         http
                 .authorizeHttpRequests()
                 .requestMatchers(toH2Console()).permitAll()
-                .requestMatchers("/admin")
+                .requestMatchers("/addition", "/item", "/clotheslist")
                 .hasRole("ADMIN")
-                .requestMatchers("/addition")
-                .hasRole("EMPLOYEE")
-                .requestMatchers("/clothesList")
-                .hasRole("USER")
+                
                 .anyRequest().permitAll()
                 .and()
                 .formLogin()
                 .loginPage("/authentication/login")
                 .defaultSuccessUrl("/clothesList", true)
+
                 .and()
                 .logout()
                 .logoutSuccessUrl("/")
+
                 .and()
                 .csrf()
                 .ignoringRequestMatchers(toH2Console())

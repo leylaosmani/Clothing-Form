@@ -75,10 +75,10 @@
         <h1>Login</h1>
 
         <div th:if="${error}" class="alert alert-danger" role="alert">
-          Unable to login. Check your username and password.
+          Login failed. Please check your username and password.
         </div>
 
-        <p>New here? Click <a th:href="@{/register}">here</a> to register.</p>
+        <p>Don't have an account? Click <a th:href="@{/register}">here</a> to register.</p>
 
         <form method="POST" th:action="@{/authentication/login}" id="loginForm">
           <div class="mb-3">
@@ -91,7 +91,7 @@
             <input class="form-control" type="password" name="password" id="password" />
           </div>
 
-          <button class="btn btn-primary" type="submit">Login</button>
+          <input class="btn btn-primary mt-5" type="submit" value="Login" />
         </form>
       </div>
     </div>
